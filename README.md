@@ -175,8 +175,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm
 Cleveland Heart Disease dataset sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+disease).  
 Original data collected by Robert Detrano, M.D., Ph.D., V.A. Medical Center, Long Beach and Cleveland Clinic Foundation.
 ---
-Author
+## Author
 
-Robert Cicero Son
+**Robert Cicero Son**
 Scrum Master · Process Engineer · Prompt Engineer · Data Analyst · AI/ML Practitioner · CSM · CSPO · AI-Empowered SAFe Agilist · Active DoD Secret Clearance
 
