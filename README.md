@@ -29,7 +29,7 @@ Build and compare multiple classification models to predict whether a patient ha
 ```
 Heart-Disease-Risk-Prediction/
 │
-├── heart_disease_prediction (2).ipynb   # Full ML pipeline notebook
+├── heart_disease_prediction_fixed.ipynb   # Full ML pipeline notebook
 └── README.md                            # This file
 ```
 
@@ -161,7 +161,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm
 
 2. Launch Jupyter:
    ```bash
-   jupyter notebook "heart_disease_prediction (2).ipynb"
+   jupyter notebook heart_disease_prediction_fixed.ipynb
    ```
 
 3. Run all cells top to bottom (`Kernel → Restart & Run All`)
