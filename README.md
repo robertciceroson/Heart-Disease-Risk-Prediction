@@ -30,7 +30,9 @@ Build and compare multiple classification models to predict whether a patient ha
 Heart-Disease-Risk-Prediction/
 │
 ├── heart_disease_prediction_fixed.ipynb   # Full ML pipeline notebook
-└── README.md                            # This file
+├── requirements.txt                       # All dependencies
+├── start.bat                              # One-click launcher for Windows
+└── README.md                              # This file
 ```
 
 ---
@@ -147,24 +149,35 @@ Each model is evaluated on 5 metrics:
 
 ## 🚀 How to Run
 
-### Requirements
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm
-```
+### Option A — One-Click Launch (Windows)
 
-### Steps
+Double-click `start.bat` in the project folder. It will:
+- Check Python is installed
+- Create a virtual environment automatically if one doesn't exist
+- Install all dependencies from `requirements.txt`
+- Launch Jupyter and open `heart_disease_prediction_fixed.ipynb` directly
+
+> **Note:** XGBoost and LightGBM may take a few minutes to install on first run. The Cleveland dataset loads automatically from the UCI repository — no manual download needed.
+
+### Option B — Manual Launch
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/robertciceroson/Heart-Disease-Risk-Prediction.git
    cd Heart-Disease-Risk-Prediction
    ```
 
-2. Launch Jupyter:
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Launch Jupyter:
    ```bash
    jupyter notebook heart_disease_prediction_fixed.ipynb
    ```
 
-3. Run all cells top to bottom (`Kernel → Restart & Run All`)
+4. Run all cells top to bottom (`Kernel → Restart & Run All`)
 
 > The notebook loads the Cleveland dataset automatically from the UCI repository — no manual download needed.
 
@@ -174,9 +187,10 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm
 
 Cleveland Heart Disease dataset sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+disease).  
 Original data collected by Robert Detrano, M.D., Ph.D., V.A. Medical Center, Long Beach and Cleveland Clinic Foundation.
+
 ---
+
 ## Author
 
 **Robert Cicero Son**
 Scrum Master · Process Engineer · Prompt Engineer · Data Analyst · AI/ML Practitioner · CSM · CSPO · AI-Empowered SAFe Agilist · Active DoD Secret Clearance
-
