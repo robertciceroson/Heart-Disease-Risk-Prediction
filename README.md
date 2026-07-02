@@ -16,6 +16,8 @@ A binary classification pipeline that predicts the presence of heart disease in 
 | **Best ROC-AUC** | ~0.92+ |
 | **Best Accuracy** | ~85%+ |
 
+<img width="287" height="875" alt="image" src="https://github.com/user-attachments/assets/04a1fa37-d641-45bd-8fa7-467928fe709e" />
+
 ---
 
 ## 🎯 Objective
@@ -193,4 +195,4 @@ Original data collected by Robert Detrano, M.D., Ph.D., V.A. Medical Center, Lon
 ## Author
 
 **Robert Cicero Son**
-Scrum Master · Process Engineer · Prompt Engineer · Data Analyst · AI/ML Practitioner · CSM · CSPO · AI-Empowered SAFe Agilist · Active DoD Secret Clearance
+Technical Scrum Master · AI Business Analyst · Prompt Engineer · Data Analyst · AI/ML Practitioner · CSM · CSPO · AI-Empowered SAFe Agilist · Active DoD Secret Clearance
