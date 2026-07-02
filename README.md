@@ -16,7 +16,7 @@ A binary classification pipeline that predicts the presence of heart disease in 
 | **Best ROC-AUC** | ~0.92+ |
 | **Best Accuracy** | ~85%+ |
 
-<img width="287" height="875" alt="image" src="https://github.com/user-attachments/assets/04a1fa37-d641-45bd-8fa7-467928fe709e" />
+https://heart-disease-risk-prediction-mk88qyzt4gvsggj3t3czwd.streamlit.app/
 
 ---
 
